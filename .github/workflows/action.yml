@@ -9,7 +9,7 @@ on:
   # 每天早上 8 点（北京时间）自动运行
   schedule:
     - cron: '30 15 * * *'
-
+    timezone: "Asia/Shanghai"
 
 jobs:
   build:
