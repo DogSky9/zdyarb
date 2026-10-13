@@ -101,7 +101,6 @@ class wecomBot:
                 console.print('[-] wecomBot 发送失败', style='bold red')
                 print(r.text)
 
-
 class dingtalkBot:
     """钉钉群机器人
     https://open.dingtalk.com/document/robots/custom-robot-access
@@ -114,48 +113,47 @@ class dingtalkBot:
 
     @staticmethod
     def parse_results(results: list):
-        """把所有订阅源按每批 20 个分组，每组拼成一条消息"""
-        batch_size = 20
-        batches = []
-        current_batch = f'# 每日安全资讯（{today}）\n\n'
+        """把所有订阅源合并成一条消息，超长自动截断"""
+        text = f'# 每日安全资讯（{today}）\n\n'
+        max_len = 19000  # 留一点余量，避免超过钉钉 20000 字节上限
 
-        for idx, result in enumerate(results):
+        for result in results:
             (feed, value), = result.items()
-            current_batch += f'## {feed}\n'
+            section = f'## {feed}\n'
             for title, link in value.items():
-                current_batch += f'- [{title}]({link})\n'
-            current_batch += '\n'
+                section += f'- [{title}]({link})\n'
+            section += '\n'
 
-            # 每满 batch_size 个源，或者到了最后一个源，就存为一批
-            if (idx + 1) % batch_size == 0 or idx == len(results) - 1:
-                current_batch += '<!-- Powered by Yarb. -->'
-                batches.append(current_batch)
-                current_batch = f'# 每日安全资讯（{today}）（续）\n\n'
+            if len(text) + len(section) > max_len:
+                text += '\n> 内容过长，已截断。\n'
+                break
 
-        return batches
+            text += section
 
-    async def send(self, batches: list):
-        """分批发送，批次之间等待 5 秒"""
-        for i, text in enumerate(batches):
-            print(f'第 {i+1}/{len(batches)} 批，长度 {len(text)}')
+        text += '<!-- Powered by Yarb. -->'
+        return text
 
-            data = {
-                "msgtype": "markdown",
-                "markdown": {"title": f"每日安全资讯（{i+1}/{len(batches)}）", "text": text}
-            }
-            headers = {'Content-Type': 'application/json'}
-            url = f'https://oapi.dingtalk.com/robot/send?access_token={self.key}'
-            r = requests.post(url=url, headers=headers, data=json.dumps(data), proxies=self.proxy)
+    async def send(self, text: str):
+        """发送单条合并消息"""
+        print(f'消息长度 {len(text)}')
 
-            if r.status_code == 200:
-                console.print(f'[+] dingtalkBot 第 {i+1} 批发送成功', style='bold green')
+        data = {
+            "msgtype": "markdown",
+            "markdown": {"title": f"每日安全资讯（{today}）", "text": text}
+        }
+        headers = {'Content-Type': 'application/json'}
+        url = f'https://oapi.dingtalk.com/robot/send?access_token={self.key}'
+        r = requests.post(url=url, headers=headers, data=json.dumps(data), proxies=self.proxy)
+
+        if r.status_code == 200:
+            resp = r.json()
+            if resp.get('errcode') == 0:
+                console.print('[+] dingtalkBot 发送成功', style='bold green')
             else:
-                console.print(f'[-] dingtalkBot 第 {i+1} 批发送失败', style='bold red')
-                print(r.text)
-
-            # 批次之间等 5 秒，避免触发钉钉频率限制
-            if i < len(batches) - 1:
-                time.sleep(5)
+                console.print(f'[-] dingtalkBot 被钉钉拒绝: {resp}', style='bold red')
+        else:
+            console.print(f'[-] dingtalkBot HTTP 错误: {r.status_code}', style='bold red')
+            print(r.text)
 
 class qqBot:
     """QQ群机器人
