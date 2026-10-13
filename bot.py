@@ -114,39 +114,48 @@ class dingtalkBot:
 
     @staticmethod
     def parse_results(results: list):
-        text_list = []
-        for result in results:
+        """把所有订阅源按每批 20 个分组，每组拼成一条消息"""
+        batch_size = 20
+        batches = []
+        current_batch = f'# 每日安全资讯（{today}）\n\n'
+
+        for idx, result in enumerate(results):
             (feed, value), = result.items()
-            text = ''.join(
-                f'- [{title}]({link})\n' for title, link in value.items())
-            text_list.append([feed, text.strip()])
-        return text_list
+            current_batch += f'## {feed}\n'
+            for title, link in value.items():
+                current_batch += f'- [{title}]({link})\n'
+            current_batch += '\n'
 
-    async def send(self, text_list: list):
-        rates = [Rate(20, Duration.MINUTE)] # 频率限制，20条/分钟
-        bucket = InMemoryBucket(rates)
-        limiter = Limiter(bucket)
+            # 每满 batch_size 个源，或者到了最后一个源，就存为一批
+            if (idx + 1) % batch_size == 0 or idx == len(results) - 1:
+                current_batch += '<!-- Powered by Yarb. -->'
+                batches.append(current_batch)
+                current_batch = f'# 每日安全资讯（{today}）（续）\n\n'
 
-        for (feed, text) in text_list:
-            limiter.try_acquire('identity')
+        return batches
 
-            text = f'## {feed}\n{text}'
-            text += f"\n\n <!-- Powered by Yarb. -->"
-            print(f'{len(text)} {text[:50]}...{text[-50:]}')
+    async def send(self, batches: list):
+        """分批发送，批次之间等待 5 秒"""
+        for i, text in enumerate(batches):
+            print(f'第 {i+1}/{len(batches)} 批，长度 {len(text)}')
 
-            data = {"msgtype": "markdown", "markdown": {
-                "title": feed, "text": text}}
+            data = {
+                "msgtype": "markdown",
+                "markdown": {"title": f"每日安全资讯（{i+1}/{len(batches)}）", "text": text}
+            }
             headers = {'Content-Type': 'application/json'}
             url = f'https://oapi.dingtalk.com/robot/send?access_token={self.key}'
-            r = requests.post(url=url, headers=headers,
-                                data=json.dumps(data), proxies=self.proxy)
+            r = requests.post(url=url, headers=headers, data=json.dumps(data), proxies=self.proxy)
 
             if r.status_code == 200:
-                console.print('[+] dingtalkBot 发送成功', style='bold green')
+                console.print(f'[+] dingtalkBot 第 {i+1} 批发送成功', style='bold green')
             else:
-                console.print('[-] dingtalkBot 发送失败', style='bold red')
+                console.print(f'[-] dingtalkBot 第 {i+1} 批发送失败', style='bold red')
                 print(r.text)
 
+            # 批次之间等 5 秒，避免触发钉钉频率限制
+            if i < len(batches) - 1:
+                time.sleep(5)
 
 class qqBot:
     """QQ群机器人
