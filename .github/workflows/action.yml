@@ -6,9 +6,9 @@ name: Update dailynews
 on:
   # 保留手动触发
   workflow_dispatch:
-  # 每天早上 8 点（北京时间）自动运行
+
   schedule:
-    - cron: '33 15 * * *'
+    - cron: '40 15 * * *'
       timezone: "Asia/Shanghai"
 
 jobs:
