@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
-<head><title>CustomRSS</title></head>
+<head>
+    <title>CustomRSS</title>
+</head>
 <body>
-<outline title="HackerOne Hacker Activity" text="HackerOne Hacker Activity" htmlUrl="https://hackerone.com/hacktivity" xmlUrl="https://rsshub.app/hackerone/hacktivity" type="rss" />
+    <!-- 综合资讯与社区 -->
+    <outline type="rss" xmlUrl="https://www.freebuf.com/feed" text="FreeBuf" title="FreeBuf" htmlUrl="https://www.freebuf.com" />
+    <outline type="rss" xmlUrl="https://api.anquanke.com/data/v1/rss" text="安全客" title="安全客" htmlUrl="https://www.anquanke.com" />
+    <outline type="rss" xmlUrl="https://www.4hou.com/feed" text="嘶吼" title="嘶吼" htmlUrl="https://www.4hou.com" />
+    <outline type="rss" xmlUrl="https://www.aqniu.com/feed" text="安全牛" title="安全牛" htmlUrl="https://www.aqniu.com" />
+    <outline type="rss" xmlUrl="https://www.secpulse.com/feed" text="安全脉搏" title="安全脉搏" htmlUrl="https://www.secpulse.com" />
+    <outline type="rss" xmlUrl="https://www.sec-wiki.com/news/rss" text="SecWiki News" title="SecWiki News" htmlUrl="https://www.sec-wiki.com/news" />
+
+    <!-- 厂商实验室与技术博客 -->
+    <outline type="rss" xmlUrl="http://blog.nsfocus.net/feed/" text="绿盟科技博客" title="绿盟科技博客" htmlUrl="http://blog.nsfocus.net" />
+    <outline type="rss" xmlUrl="https://blog.ateam.qianxin.com/atom.xml" text="奇安信A-TEAM" title="奇安信A-TEAM" htmlUrl="https://blog.ateam.qianxin.com" />
+    <outline type="rss" xmlUrl="https://keenlab.tencent.com/zh/atom.xml" text="腾讯科恩实验室" title="腾讯科恩实验室" htmlUrl="https://keenlab.tencent.com/zh/" />
+    <outline type="rss" xmlUrl="https://xlab.tencent.com/cn/atom.xml" text="腾讯玄武实验室" title="腾讯玄武实验室" htmlUrl="https://xlab.tencent.com" />
+    <outline type="rss" xmlUrl="https://paper.seebug.org/rss" text="知道创宇404实验室" title="知道创宇404实验室" htmlUrl="https://paper.seebug.org" />
+    <outline type="rss" xmlUrl="http://blog.topsec.com.cn/feed" text="天融信阿尔法实验室" title="天融信阿尔法实验室" htmlUrl="http://blog.topsec.com.cn" />
+    <outline type="rss" xmlUrl="http://blogs.360.cn/rss.html" text="360核心安全技术博客" title="360核心安全技术博客" htmlUrl="http://blogs.360.cn" />
+    <outline type="rss" xmlUrl="https://blog.netlab.360.com/rss" text="360 Netlab Blog" title="360 Netlab Blog" htmlUrl="https://blog.netlab.360.com" />
+
+    <!-- 漏洞与威胁情报 -->
+    <outline type="rss" xmlUrl="https://wechat2rss.xlab.app/feed/edf17c7a01a7152b7a1ca14133258dc4abc1ca61.xml" text="CNVD漏洞平台" title="CNVD漏洞平台" htmlUrl="https://www.cnvd.org.cn" />
+    <outline type="rss" xmlUrl="https://wechat2rss.xlab.app/feed/981c000a01bbdc1f128d260cc91c15d3a6afb530.xml" text="奇安信CERT" title="奇安信CERT" htmlUrl="https://cert.qianxin.com" />
+    <outline type="rss" xmlUrl="https://wechat2rss.xlab.app/feed/aa2ff3b0167a3f449f3b116717b5350ab64df8c3.xml" text="绿盟科技CERT" title="绿盟科技CERT" htmlUrl="https://cert.nsfocus.com" />
+    <outline type="rss" xmlUrl="https://wechat2rss.xlab.app/feed/ca1fddd8505a3473feed12c0bee898e97d4d5eae.xml" text="360漏洞云" title="360漏洞云" htmlUrl="https://loudong.360.cn" />
+    <outline type="rss" xmlUrl="https://wechat2rss.xlab.app/feed/b93962f981247c0091dad08df5b7a6864ab888e9.xml" text="奇安信威胁情报中心" title="奇安信威胁情报中心" htmlUrl="https://ti.qianxin.com" />
+    <outline type="rss" xmlUrl="https://wechat2rss.xlab.app/feed/ac64c385ebcdb17fee8df733eb620a22b979928c.xml" text="微步在线研究响应中心" title="微步在线研究响应中心" htmlUrl="https://x.threatbook.com" />
+
+    <!-- 应急响应中心 -->
+    <outline type="rss" xmlUrl="https://wechat2rss.xlab.app/feed/7898375f78fd1018302d54577cd0fd05d5ed324f.xml" text="腾讯安全应急响应中心" title="腾讯安全应急响应中心" htmlUrl="https://security.tencent.com" />
+    <outline type="rss" xmlUrl="https://wechat2rss.xlab.app/feed/544a8a6edc551b8a2975fbb76b7de1637570d0e7.xml" text="阿里安全响应中心" title="阿里安全响应中心" htmlUrl="https://asrc.alibaba.com" />
+    <outline type="rss" xmlUrl="https://wechat2rss.xlab.app/feed/2b0b4d99312e57d27a294d18de8dfb8f9c272fd4.xml" text="百度安全应急响应中心" title="百度安全应急响应中心" htmlUrl="https://bsrc.baidu.com" />
+    <outline type="rss" xmlUrl="https://wechat2rss.xlab.app/feed/f4087ff02b808a1a995e2ba930219ada5b82425d.xml" text="字节跳动安全中心" title="字节跳动安全中心" htmlUrl="https://security.bytedance.com" />
+    <outline type="rss" xmlUrl="https://wechat2rss.xlab.app/feed/97cd46da8232bd740c02838e1c579182f9636e3e.xml" text="滴滴安全应急响应中心" title="滴滴安全应急响应中心" htmlUrl="https://sec.didichuxing.com" />
+    <outline type="rss" xmlUrl="https://wechat2rss.xlab.app/feed/294bc034c9941529cd86a8a4b8999d100186c04d.xml" text="美团安全应急响应中心" title="美团安全应急响应中心" htmlUrl="https://security.meituan.com" />
 </body>
 </opml>
