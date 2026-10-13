@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
   # 每天早上 8 点（北京时间）自动运行
   schedule:
-    - cron: '0 8 * * *'
+    - cron: '15 8 * * *'
 
 
 jobs:
