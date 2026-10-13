@@ -22,7 +22,7 @@
         },
         "Chinese-Security-RSS": {
             "enabled": true,
-            "url": "https://raw.githubusercontent.com/zhengjim/Chinese-Security-RSS/master/Chinese-Security-RSS.opml",
+            "url": "https://github.com/DogSky9/zdyarb/blob/main/rss/Chinese-Security-RSS.opml",
             "filename": "Chinese-Security-RSS.opml"
         },
         "awesome-security-feed": {
