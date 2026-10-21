@@ -1,21 +1,12 @@
-# 每日安全资讯（2026-10-20）
+# 每日安全资讯（2026-10-21）
 
-- 微步在线研究响应中心
-  - [打开即执行！Windows Shell 安全功能绕过漏洞已遭在野利用](https://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw==&mid=2247508993&idx=1&sn=1c0d83938d3bf46d778f4fcf0e098470)
 - SecWiki News
-  - [SecWiki News 2026-10-19 Review](http://www.sec-wiki.com/?2026-10-19)
+  - [SecWiki News 2026-10-20 Review](http://www.sec-wiki.com/?2026-10-20)
 - 腾讯安全应急响应中心
-  - [打穿虚拟化边界！Corvus AI 与 隐藏十年的 Linux 内核漏洞的一场对决](https://mp.weixin.qq.com/s?__biz=MjM5NzE1NjA0MQ==&mid=2651208833&idx=1&sn=c6feb53ecd60d5b101274ccba3025d20)
-- 安全客-有思想的安全新媒体
-  - [3.5万次请求、翻找泄露密钥：失控AI智能体围猎高德地图，运营者却毫不知情](https://www.anquanke.com/post/id/316251)
-  - [51个AI代理，61秒植入32个后门：黑客已经把AI训练成红队主力](https://www.anquanke.com/post/id/316248)
-  - [黑客把冷柜调到50℃，数百家超市一夜报废：工控安全最扎心的一课](https://www.anquanke.com/post/id/316245)
-- 绿盟科技技术博客
-  - [2026 人工智能产业大会 | 绿盟科技多项智能体安全实践成果出圈](https://blog.nsfocus.net/2026-%e4%ba%ba%e5%b7%a5%e6%99%ba%e8%83%bd%e4%ba%a7%e4%b8%9a%e5%a4%a7%e4%bc%9a-%e7%bb%bf%e7%9b%9f%e7%a7%91%e6%8a%80%e5%a4%9a%e9%a1%b9%e6%99%ba%e8%83%bd%e4%bd%93%e5%ae%89%e5%85%a8%e5%ae%9e%e8%b7%b5/)
-- CNVD漏洞平台
-  - [CNVD漏洞周报2026年第41期](https://mp.weixin.qq.com/s?__biz=MzU3ODM2NTg2Mg==&mid=2247497445&idx=1&sn=de9c44e651189b8c59f4576028114643)
-  - [上周关注度较高的产品安全漏洞(20261012-20261018)](https://mp.weixin.qq.com/s?__biz=MzU3ODM2NTg2Mg==&mid=2247497445&idx=2&sn=13cf0748da4ec26513d7555e8bc0ab8d)
+  - [关于TSRC漏洞奖励方案调整及测试行为违规通报的公告](https://mp.weixin.qq.com/s?__biz=MjM5NzE1NjA0MQ==&mid=2651208837&idx=1&sn=e752913b2c7d8dd46df1575a046d859b)
 - 奇安信威胁情报中心
-  - [从一封“密钥泄露”邮件说起：OpenCode 蒸馏攻击事件全解析](https://mp.weixin.qq.com/s?__biz=MzI2MDc2MDA4OA==&mid=2247520943&idx=1&sn=5c950426f02eff0ae6768e1def0b2447)
+  - [23小时、50美元：一名黑客如何把入侵百家企业的活儿"外包"给了AI](https://mp.weixin.qq.com/s?__biz=MzI2MDc2MDA4OA==&mid=2247520959&idx=1&sn=ff4b7ec83feeab2d47766cd7ded54d7f)
 - 奇安信 CERT
-  - [【已复现】Windows Shell 安全功能绕过漏洞(CVE-2026-96951)安全风险通告](https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247507824&idx=1&sn=f728bbc888c3471db48ed9decc634776)
+  - [【已复现】Drupal Field UI 远程代码执行漏洞(CVE-2026-108097)安全风险通告](https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247507841&idx=1&sn=116fca8bcfc5601e178704c227389213)
+- 安全客-有思想的安全新媒体
+  - [月下载9000万次的AI网关LiteLLM曝双漏洞：低权限账号就能偷走你所有API密钥](https://www.anquanke.com/post/id/316257)
