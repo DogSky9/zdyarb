@@ -1,21 +1,8 @@
-# 每日安全资讯（2026-10-24）
+# 每日安全资讯（2026-10-25）
 
 - SecWiki News
-  - [SecWiki News 2026-10-23 Review](http://www.sec-wiki.com/?2026-10-23)
-- Paper - 知道创宇404实验室
-  - [基于小语言模型的 RAG 流水线上下文感知提示注入检测：nokast-secureRAG](https://paper.seebug.org/3529)
-  - [讲解一下这次PHP核弹级别漏洞的原理](https://paper.seebug.org/3528)
-- 字节跳动安全中心
-  - [金秋护航，来字节跳动安全与风控收获你的专属 Offer！](https://mp.weixin.qq.com/s?__biz=MzUzMzcyMDYzMw==&mid=2247496398&idx=1&sn=9e334a6f0e34d5ba23744a46e2c63877)
+  - [SecWiki News 2026-10-24 Review](http://www.sec-wiki.com/?2026-10-24)
 - 绿盟科技技术博客
-  - [针对PHP高危漏洞，绿盟科技更新8类安全产品规则，守护用户业务安全](https://blog.nsfocus.net/%e9%92%88%e5%af%b9php%e9%ab%98%e5%8d%b1%e6%bc%8f%e6%b4%9e%ef%bc%8c%e7%bb%bf%e7%9b%9f%e7%a7%91%e6%8a%80%e6%9b%b4%e6%96%b08%e7%b1%bb%e5%ae%89%e5%85%a8%e4%ba%a7%e5%93%81%e8%a7%84%e5%88%99%ef%bc%8c/)
-  - [PHP远程代码执行漏洞（CVE-2026-109618/CVE-2026-109619）通告](https://blog.nsfocus.net/php%e8%bf%9c%e7%a8%8b%e4%bb%a3%e7%a0%81%e6%89%a7%e8%a1%8c%e6%bc%8f%e6%b4%9e%ef%bc%88cve-2026-109618-cve-2026-109619%ef%bc%89%e9%80%9a%e5%91%8a-2/)
-  - [前端在 AI Coding 的应用实践：把 AI 用成日常编码搭档](https://blog.nsfocus.net/%e5%89%8d%e7%ab%af%e5%9c%a8-ai-coding-%e7%9a%84%e5%ba%94%e7%94%a8%e5%ae%9e%e8%b7%b5%ef%bc%9a%e6%8a%8a-ai-%e7%94%a8%e6%88%90%e6%97%a5%e5%b8%b8%e7%bc%96%e7%a0%81%e6%90%ad%e6%a1%a3/)
-- 奇安信威胁情报中心
-  - [每周高级威胁情报解读(2026.10.16~10.22)](https://mp.weixin.qq.com/s?__biz=MzI2MDc2MDA4OA==&mid=2247521011&idx=1&sn=033a8d339775d9a200037a94fa2b43b9)
+  - [绿盟科技顾杜娟博士获评 “2026中国网络安全十大人物”，前沿研发实力获行业认可](https://blog.nsfocus.net/%e7%bb%bf%e7%9b%9f%e7%a7%91%e6%8a%80%e9%a1%be%e6%9d%9c%e5%a8%9f%e5%8d%9a%e5%a3%ab%e8%8e%b7%e8%af%84-2026%e4%b8%ad%e5%9b%bd%e7%bd%91%e7%bb%9c%e5%ae%89%e5%85%a8%e5%8d%81%e5%a4%a7%e4%ba%ba/)
 - 奇安信 CERT
-  - [安全热点周报：黑客在 PHP2Shell 漏洞公开披露前4天就试图利用该漏洞](https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247507917&idx=1&sn=c0266b07d6a78bf955e592bdfd4b1846)
-- 360 Netlab Blog - Network Security Research Lab at 360
-  - [AI安全专题周报（20261023）](https://blog.netlab.360.com/aian-quan-zhuan-ti-zhou-bao-10/)
-- 绿盟科技CERT
-  - [【处置手册】PHP远程代码执行漏洞（CVE-2026-109618/CVE-2026-109619）](https://mp.weixin.qq.com/s?__biz=Mzk0MjE3ODkxNg==&mid=2247493721&idx=1&sn=0e73454d53812475a4f22b4317551980)
+  - [【新增产品解决方案】PHP 远程代码执行漏洞(CVE-2026-109618、CVE-2026-109619)安全风险通告](https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247507922&idx=1&sn=82033e97fa3b85bf4568719ff8828401)
