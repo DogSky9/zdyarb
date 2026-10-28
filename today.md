@@ -1,8 +1,12 @@
-# 每日安全资讯（2026-10-27）
+# 每日安全资讯（2026-10-28）
 
+- SecWiki News
+  - [SecWiki News 2026-10-27 Review](http://www.sec-wiki.com/?2026-10-27)
 - 绿盟科技技术博客
-  - [“一底座两主线”助力水电工控系统安全联防联控——绿盟科技参与第七届水电、新能源工业控制系统安全技术交流会](https://blog.nsfocus.net/%e4%b8%80%e5%ba%95%e5%ba%a7%e4%b8%a4%e4%b8%bb%e7%ba%bf%e5%8a%a9%e5%8a%9b%e6%b0%b4%e7%94%b5%e5%b7%a5%e6%8e%a7%e7%b3%bb%e7%bb%9f%e5%ae%89%e5%85%a8%e8%81%94%e9%98%b2%e8%81%94%e6%8e%a7/)
-- 安全客-有思想的安全新媒体
-  - [Node.js、Python、Bun全中招：一个压缩库的内存漏洞，让半个互联网"裸奔"](https://www.anquanke.com/post/id/316355)
-  - [凌晨收到GitLab安全公告，CVSS满分，我看了看自家版本号](https://www.anquanke.com/post/id/316350)
-  - [AI自己写勒索脚本、自己挑目标、自己搞钱：俄罗斯黑客的Phantom框架，把勒索软件玩成了自动化流水线](https://www.anquanke.com/post/id/316346)
+  - [U盘反病毒抢救数据](https://blog.nsfocus.net/u%e7%9b%98%e5%8f%8d%e7%97%85%e6%af%92%e6%8a%a2%e6%95%91%e6%95%b0%e6%8d%ae/)
+- 360漏洞云
+  - [360漏洞云亮相看雪峰会｜人机共智·重构安全](https://mp.weixin.qq.com/s?__biz=Mzg5MTc5Mzk2OA==&mid=2247505445&idx=1&sn=acf676ddd4d436e172161ea835ac638c)
+- 奇安信 CERT
+  - [【已复现】Linux Kernel POSIX CPU timer 释放后重用漏洞(CVE-2026-98260)安全风险通告](https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247507953&idx=1&sn=63d387c07e7193fafec342f7cbbe8b80)
+- 奇安信威胁情报中心
+  - [【原创】当 AI 盯上医院：四小时攻击链与两处独立节点的深度取证](https://mp.weixin.qq.com/s?__biz=MzI2MDc2MDA4OA==&mid=2247521038&idx=1&sn=190318e18c61bd4dd02492fecd43a7c6)
