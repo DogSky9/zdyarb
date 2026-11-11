@@ -1,11 +1,10 @@
-# 每日安全资讯（2026-11-10）
+# 每日安全资讯（2026-11-11）
 
+- 百度安全应急响应中心
+  - [BSRC关于违规测试行为的警示与规范重申](https://mp.weixin.qq.com/s?__biz=MzA4ODc0MTIwMw==&mid=2652545180&idx=1&sn=a4693059b11c866a4d0ff815351d064a)
 - 绿盟科技技术博客
-  - [OpenSSH/musl密码认证绕过漏洞（CVE-2026-123158）通告](https://blog.nsfocus.net/openssh-musl%e5%af%86%e7%a0%81%e8%ae%a4%e8%af%81%e7%bb%95%e8%bf%87%e6%bc%8f%e6%b4%9e%ef%bc%88cve-2026-123158%ef%bc%89%e9%80%9a%e5%91%8a/)
+  - [绿盟科技深度参与2026年网络和数据安全产业论坛，多维呈现AI安全产业价值](https://blog.nsfocus.net/%e7%bb%bf%e7%9b%9f%e7%a7%91%e6%8a%80%e6%b7%b1%e5%ba%a6%e5%8f%82%e4%b8%8e2026%e5%b9%b4%e7%bd%91%e7%bb%9c%e5%92%8c%e6%95%b0%e6%8d%ae%e5%ae%89%e5%85%a8%e4%ba%a7%e4%b8%9a%e8%ae%ba%e5%9d%9b%ef%bc%8c/)
 - 奇安信威胁情报中心
-  - [欧洲制冷系统攻击复盘：当温度设定成为攻击目标](https://mp.weixin.qq.com/s?__biz=MzI2MDc2MDA4OA==&mid=2247521297&idx=1&sn=6a6eef9c97fc3d49ce58036988f6f573)
+  - [出厂即失陷：XCPE 如何把 130 万台 Android 设备变成“可出租”的后门](https://mp.weixin.qq.com/s?__biz=MzI2MDc2MDA4OA==&mid=2247521313&idx=1&sn=1bd52ac3229fa18e781a8aac3c4553ab)
 - 奇安信 CERT
-  - [【已复现】Windows Error Reporting 参数注入权限提升漏洞(CVE-2026-97798)安全风险通告](https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247508061&idx=1&sn=06b92c69f294a5093707f705d65dc73b)
-- 安全客-有思想的安全新媒体
-  - [《失守》系列 | 6分钟，看一个人是怎么把自己交出去的](https://www.anquanke.com/post/id/316450)
-  - [杀毒软件成了后门：cPGuard更新通道被投毒](https://www.anquanke.com/post/id/316452)
+  - [【在野利用】Google Chrome XML 释放后重用漏洞(CVE-2026-125350)安全风险通告](https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247508072&idx=1&sn=485710801ed0fb7ae08a2b9f3e4612c8)
