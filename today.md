@@ -1,17 +1,26 @@
-# 每日安全资讯（2026-11-13）
+# 每日安全资讯（2026-11-14）
 
 - 微步在线研究响应中心
-  - [已复现！7-Zip LZX 解码器远程代码执行漏洞](https://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw==&mid=2247509041&idx=1&sn=d6e387eacb4bd1900b1f3c36100a3b3f)
+  - [已复现！Apache HTTPD mod_http2 条件竞争远程代码执行漏洞](https://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw==&mid=2247509047&idx=1&sn=378b5e0e20a6df5a5dd427ccac017b56)
+  - [已复现！Windows 音频服务本地提权漏洞利用链](https://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw==&mid=2247509047&idx=2&sn=ee30904075deafef76027d091c05b175)
 - Paper - 知道创宇404实验室
-  - [先取证还是先处置？面向信息物理系统时限性事件响应的信念级反事实标签](https://paper.seebug.org/3533)
+  - [面向移动 SQLite 数据库的上下文感知证据抽取：一个符号—神经框架](https://paper.seebug.org/3534)
 - 360漏洞云
-  - [360首批签署《网络产品安全漏洞收集平台自律公约》，共筑漏洞治理良性生态](https://mp.weixin.qq.com/s?__biz=Mzg5MTc5Mzk2OA==&mid=2247505473&idx=1&sn=d955642e46ede7ce64ff3d79e0260467)
-- 字节跳动安全中心
-  - [ByteSRC发布《AI 辅助安全测试 AGENTS.md》指引及违规白帽处罚公告](https://mp.weixin.qq.com/s?__biz=MzUzMzcyMDYzMw==&mid=2247496405&idx=1&sn=b989bdc2a075e3a46abfda036a16bb1f)
-- 绿盟科技技术博客
-  - [绿盟科技携手运营商客户联合申报案例斩获“数信杯”优秀案例征集赛金奖](https://blog.nsfocus.net/%e7%bb%bf%e7%9b%9f%e7%a7%91%e6%8a%80%e6%90%ba%e6%89%8b%e8%bf%90%e8%90%a5%e5%95%86%e5%ae%a2%e6%88%b7%e8%81%94%e5%90%88%e7%94%b3%e6%8a%a5%e6%a1%88%e4%be%8b%e6%96%a9%e8%8e%b7%e6%95%b0%e4%bf%a1/)
-  - [微软11月安全更新多个产品高危漏洞通告](https://blog.nsfocus.net/%e5%be%ae%e8%bd%af11%e6%9c%88%e5%ae%89%e5%85%a8%e6%9b%b4%e6%96%b0%e5%a4%9a%e4%b8%aa%e4%ba%a7%e5%93%81%e9%ab%98%e5%8d%b1%e6%bc%8f%e6%b4%9e%e9%80%9a%e5%91%8a/)
+  - [联合发布｜《SRC行业授权资产安全测试规范-Agent版》及配套使用手册](https://mp.weixin.qq.com/s?__biz=Mzg5MTc5Mzk2OA==&mid=2247505474&idx=1&sn=6e66544afb8ca1a4d68c92b779e992d5)
+- 阿里安全响应中心
+  - [王牌A计划｜七月月度奖励](https://mp.weixin.qq.com/s?__biz=MzIxMjEwNTc4NA==&mid=2652999169&idx=1&sn=dda9c7630e58ff84b0ebe897d680750d)
+- 安全客-有思想的安全新媒体
+  - [3.5万个Grok应用不用登录就能打开，泄露的是马斯克自己公司的工资表](https://www.anquanke.com/post/id/316476)
+  - [大模型狂奔三年，百度词元所重新定义AI生意](https://www.anquanke.com/post/id/316469)
 - 奇安信威胁情报中心
-  - [四次阻断，四次改道：AI 自主入侵已经走到哪一步](https://mp.weixin.qq.com/s?__biz=MzI2MDc2MDA4OA==&mid=2247521340&idx=1&sn=d86adafc458a77cf2854f7e3ea8aef5f)
+  - [每周高级威胁情报解读(2026.11.06~11.12)](https://mp.weixin.qq.com/s?__biz=MzI2MDc2MDA4OA==&mid=2247521370&idx=1&sn=66e07d88c53ade99d8c61488f6eaf8d9)
+  - [供应链安全威胁档案周报——W46](https://mp.weixin.qq.com/s?__biz=MzI2MDc2MDA4OA==&mid=2247521370&idx=2&sn=3ff8802d5533bc48a7d5474def5ebd52)
 - 奇安信 CERT
-  - [【已复现】7-Zip LZX 解码器堆越界写入漏洞(CVE-2026-125742)安全风险通告](https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247508100&idx=1&sn=6f81d45d46dee8d85c4f8d85dcb07891)
+  - [【已复现】Apache HTTP/2 远程代码执行漏洞(CVE-2026-119618)安全风险通告](https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247508110&idx=1&sn=a17f6b379b7e554d96a77c11e8ccbe90)
+- 绿盟科技技术博客
+  - [首批 | 绿盟科技正式获评首批国家人工智能安全漏洞库（AIVD）技术支撑单位](https://blog.nsfocus.net/%e9%a6%96%e6%89%b9-%e7%bb%bf%e7%9b%9f%e7%a7%91%e6%8a%80%e6%ad%a3%e5%bc%8f%e8%8e%b7%e8%af%84%e9%a6%96%e6%89%b9%e5%9b%bd%e5%ae%b6%e4%ba%ba%e5%b7%a5%e6%99%ba%e8%83%bd%e5%ae%89%e5%85%a8%e6%bc%8f/)
+  - [工信厅信管〔2026〕42号文件，把智能体安全从“功能”变成了“要件”](https://blog.nsfocus.net/%e5%b7%a5%e4%bf%a1%e5%8e%85%e4%bf%a1%e7%ae%a1%e3%80%942026%e3%80%9542%e5%8f%b7%e6%96%87%e4%bb%b6%ef%bc%8c%e6%8a%8a%e6%99%ba%e8%83%bd%e4%bd%93%e5%ae%89%e5%85%a8%e4%bb%8e%e5%8a%9f%e8%83%bd/)
+- 绿盟科技CERT
+  - [【漏洞通告】Apache HTTP Server远程代码执行漏洞（CVE-2026-119618）](https://mp.weixin.qq.com/s?__biz=Mzk0MjE3ODkxNg==&mid=2247494081&idx=1&sn=5e1805ee53b15e8931bf0b8970da995f)
+- 360 Netlab Blog - Network Security Research Lab at 360
+  - [AI安全专题周报（20261113）](https://blog.netlab.360.com/aian-quan-zhuan-ti-zhou-bao-20261113/)
