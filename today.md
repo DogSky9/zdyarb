@@ -1,14 +1,14 @@
-# 每日安全资讯（2026-11-17）
+# 每日安全资讯（2026-11-18）
 
-- 滴滴安全应急响应中心
-  - [关于重要保障期间暂停接收漏洞的公告](https://mp.weixin.qq.com/s?__biz=MzA3Mzk1MDk1NA==&mid=2651909640&idx=1&sn=d74f2f2c3aa6b4e31b24a6fe46c4841e)
-- 安全客-有思想的安全新媒体
-  - [征集通知丨DigiBridge全球数字能力建设特聘专家](https://www.anquanke.com/post/id/316477)
-  - [一个被越狱的AI智能体，自己打了两周才被人发现](https://www.anquanke.com/post/id/316483)
+- Paper - 知道创宇404实验室
+  - [智能体 AI 框架中的 MCP 工具投毒：一项跨框架测量研究](https://paper.seebug.org/3535)
 - 绿盟科技技术博客
-  - [Apache HTTP Server远程代码执行漏洞（CVE-2026-119618）通告](https://blog.nsfocus.net/apache-http-server%e8%bf%9c%e7%a8%8b%e4%bb%a3%e7%a0%81%e6%89%a7%e8%a1%8c%e6%bc%8f%e6%b4%9e%ef%bc%88cve-2026-119618%ef%bc%89%e9%80%9a%e5%91%8a/)
-- CNVD漏洞平台
-  - [CNVD漏洞周报2026年第45期](https://mp.weixin.qq.com/s?__biz=MzU3ODM2NTg2Mg==&mid=2247497527&idx=1&sn=726f2656988f742bf195de0a3c097647)
-  - [上周关注度较高的产品安全漏洞(20261109-20261115)](https://mp.weixin.qq.com/s?__biz=MzU3ODM2NTg2Mg==&mid=2247497527&idx=2&sn=f013e05352474ba1d625d1eb1539861a)
+  - [绿盟科技风云卫基座模型斩获CyberGym Model榜单全球第一，91.31%！！！](https://blog.nsfocus.net/%e7%bb%bf%e7%9b%9f%e7%a7%91%e6%8a%80%e9%a3%8e%e4%ba%91%e5%8d%ab%e5%9f%ba%e5%ba%a7%e6%a8%a1%e5%9e%8b%e6%96%a9%e8%8e%b7cybergym-model%e6%a6%9c%e5%8d%95%e5%85%a8%e7%90%83%e7%ac%ac%e4%b8%80%ef%bc%8c91-31/)
+  - [绿盟科技护航首艘内河航运电动船成功试航](https://blog.nsfocus.net/%e7%bb%bf%e7%9b%9f%e7%a7%91%e6%8a%80%e6%8a%a4%e8%88%aa%e9%a6%96%e8%89%98%e5%86%85%e6%b2%b3%e8%88%aa%e8%bf%90%e7%94%b5%e5%8a%a8%e8%88%b9%e6%88%90%e5%8a%9f%e8%af%95%e8%88%aa/)
+- 奇安信 CERT
+  - [【已复现】LibreOffice 远程代码执行漏洞(CVE-2026-104692、CVE-2026-104007)安全风险通告](https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247508132&idx=1&sn=765cffd533b8087793a59834cabdc0dd)
 - 奇安信威胁情报中心
-  - [运维通道里的“回马枪”：SCKit 如何滥用 ScreenConnect](https://mp.weixin.qq.com/s?__biz=MzI2MDc2MDA4OA==&mid=2247521382&idx=1&sn=cfaa2d062081b12bf5df8006bfc516f8)
+  - [微软服务中断遭“二次利用”：大规模钓鱼邮件以“恢复邮件”为饵](https://mp.weixin.qq.com/s?__biz=MzI2MDc2MDA4OA==&mid=2247521402&idx=2&sn=7922444ea20dccf00b2e6fc94d82c2b6)
+- 绿盟科技CERT
+  - [【漏洞通告】Apache Axis 1.x远程代码执行漏洞（CVE-2026-90436）](https://mp.weixin.qq.com/s?__biz=Mzk0MjE3ODkxNg==&mid=2247494099&idx=1&sn=4f3b18d3defcf972011a7d1626d9f5f5)
+  - [【漏洞通告】LibreOffice远程代码执行漏洞（CVE-2026-104007/CVE-2026-104692）](https://mp.weixin.qq.com/s?__biz=Mzk0MjE3ODkxNg==&mid=2247494099&idx=2&sn=a681712b6e01dd5a835afed611413a20)
