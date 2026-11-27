@@ -1,13 +1,10 @@
-# 每日安全资讯（2026-11-26）
+# 每日安全资讯（2026-11-27）
 
 - Paper - 知道创宇404实验室
-  - [MirrorGuard：防御 LiDAR 感知免受被动镜面攻击](https://paper.seebug.org/3537)
-- 安全客-有思想的安全新媒体
-  - [AI攻破安全厂商，锅在一把没回收的密钥](https://www.anquanke.com/post/id/316541)
-- CNVD漏洞平台
-  - [关于GeoServer存在远程代码执行漏洞的安全公告](https://mp.weixin.qq.com/s?__biz=MzU3ODM2NTg2Mg==&mid=2247497548&idx=1&sn=087b8e086a411270e0d5112acaca6303)
+  - [PseuDRAGON：面向封闭网络金融数据假名化的知识引导本地大语言模型](https://paper.seebug.org/3538)
+- 滴滴安全应急响应中心
+  - [DSRC联合发布｜《SRC行业授权资产安全测试规范-Agent版》及配套使用手册](https://mp.weixin.qq.com/s?__biz=MzA3Mzk1MDk1NA==&mid=2651909647&idx=1&sn=722cbb2eb8a2d21699046f43bdd5d4fe)
 - 奇安信威胁情报中心
-  - [【原创】面向游戏玩家的供应链攻击：DLSS 5 Swapper 官网安装包被替换](https://mp.weixin.qq.com/s?__biz=MzI2MDc2MDA4OA==&mid=2247521528&idx=1&sn=6633daf792ad9501abfb9865bf28cec1)
+  - [攻击停了，凭据风险没停：Azure APIM事件的真正“后半场”](https://mp.weixin.qq.com/s?__biz=MzI2MDc2MDA4OA==&mid=2247521536&idx=1&sn=3f7e713fb6f97c70ae06aa6c23c6795f)
 - 绿盟科技CERT
-  - [【漏洞通告】VMware vCenter Server身份认证绕过漏洞（CVE-2026-123903）](https://mp.weixin.qq.com/s?__biz=Mzk0MjE3ODkxNg==&mid=2247494326&idx=2&sn=75c5ad1f4323892c18ceff3a1a5950cd)
-  - [【漏洞通告】GeoServer多个高危漏洞](https://mp.weixin.qq.com/s?__biz=Mzk0MjE3ODkxNg==&mid=2247494326&idx=1&sn=0024f2b1ed3f2501f3eed5b511583632)
+  - [【漏洞通告】Drupal远程代码执行漏洞（CVE-2026-132165）](https://mp.weixin.qq.com/s?__biz=Mzk0MjE3ODkxNg==&mid=2247494332&idx=1&sn=20e10be7965d6e9f32dedeab3022393a)
